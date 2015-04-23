@@ -1,0 +1,16 @@
+div.results {
+  margins: auto;
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+div.results h1 {
+  font-size: 1em;
+  color: red;
+}
+
+div.results a {
+  font-size: 20px;
+  font-style: italic;
+}
