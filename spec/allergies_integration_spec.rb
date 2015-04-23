@@ -1,6 +1,7 @@
 require('capybara/rspec')
 require('./app')
 Capybara.app = Sinatra::Application
+set(:show_exceptions, false)
 
 describe('Index form', {:type => :feature}) do
   it('accepts a fixnum (allergy score) and displays a list of allergies') do

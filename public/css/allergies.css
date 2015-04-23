@@ -14,3 +14,7 @@ div.results a {
   font-size: 20px;
   font-style: italic;
 }
+
+.form-control {
+  width: auto;
+}
